@@ -7,3 +7,10 @@ JDK1.8 之前 HashMap 底层是 数组和链表 结合在一起使用也就是 �
 相比于之前的版本， JDK1.8 之后在解决哈希冲突时有了较大的变化，当链表长度大于阈值（默认为 8）（将链表转换成红黑树前会判断，如果当前数组的长度小于 64，那么会选择先进行数组扩容，而不是转换为红黑树）时，将链表转化为红黑树，以减少搜索时间。
 
 两数之和: https://github.com/zhangsongyang/leetcode-exercise/blob/master/src/main/java/org/example/simpleness/TwoSum.java
+前 K 个高频元素:
+丑数:
+二叉树的中序遍历:
+二叉树的前序遍历:
+N 叉树的前序遍历:
+N 叉树的层序遍历:
+字母异位词分组:
